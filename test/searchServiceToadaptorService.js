@@ -29,7 +29,7 @@ return chai.request('https://services.dev.webjet.com.au/')
         console.log(res.body)      
       //console.log(res.body.data.offers)
 expect(res.body.data).to.have.property("geoCategory").equal('Domestic');
-expect(res.body.data).to.have.property("offerType").equal('SINGLE');
+expect(res.body.data).to.have.property("offerType").equal('SIGLE');
 expect(res.body.data).to.have.property("currency").equal('AUD');
 
         })
